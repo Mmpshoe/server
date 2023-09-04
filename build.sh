@@ -2,7 +2,7 @@
 # exit on error
 set -o errexit
 
-source /home/kholu/Music/server/env/bin/activate
+python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
 python3 manage.py collectstatic --no-input
