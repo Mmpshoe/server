@@ -1,2 +1,2 @@
-python123==0.0.1
+Django==3.2.5 
 gunicorn==20.1.0
