@@ -4,7 +4,7 @@ dj-database-url==2.1.0
 djangorestframework==3.14.0
 django-allauth==0.55.2
 APScheduler==3.10.1
-clone==0.2.1
+
 apturl==0.5.2
 asgiref==3.6.0
 attrs==21.2.0
