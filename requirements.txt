@@ -3,3 +3,4 @@ gunicorn==20.1.0
 dj-database-url==2.1.0
 djangorestframework==3.14.0
 django-allauth==0.55.2
+dj_rest_auth==4.0.1
