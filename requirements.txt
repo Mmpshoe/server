@@ -20,8 +20,8 @@ charset-normalizer==3.2.0
 click==8.1.7
 cmake==3.27.2
 colorama==0.4.6
-command-not-found==0.3
-compizconfig-python==0.9.14.1
+
+
 configobj==5.0.6
 contourpy==1.0.7
 cryptography==40.0.2
