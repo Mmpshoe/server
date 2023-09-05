@@ -1,4 +1,4 @@
-django==3.10.6
+django==4.2.5
 dj-database-url==2.1.0
 djangorestframework==3.14.0
 django-allauth==0.55.2
