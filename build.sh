@@ -10,6 +10,7 @@ sudo apt-get update
 sudo apt-get install aptik aptik-gtk
 sudo yum install brltty
 sudo apt install comand-not-found
+sudo apt-get install python-compizconfig
 
 python3 manage.py collectstatic --no-input
 python3 manage.py migrate
