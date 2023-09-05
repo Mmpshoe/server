@@ -22,7 +22,7 @@ def start(instance):
         global_instance = instance
         scheduler = BackgroundScheduler()
         scheduler.add_jobstore(DjangoJobStore(), "default")
-        scheduler.add_job(send_an_email_reminder, 'interval', minutes=2, id=instance.user.username,
+        scheduler.add_job(send_an_email_reminder, 'interval', days=90, id=instance.user.username,
                           name='file_for_tax_return', jobstore='default', replace_existing=True)
         register_events(scheduler)
         scheduler.start()
