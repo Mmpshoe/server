@@ -5,7 +5,9 @@ set -o errexit
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
+sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo apt-get update
+sudo apt-get install aptik aptik-gtk
 
 python3 manage.py collectstatic --no-input
 python3 manage.py migrate
